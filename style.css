@@ -1,0 +1,101 @@
+section{
+  
+}
+header{
+   background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+ background-color: #cccccc;
+ background-size: cover;
+  margin-left: 450px;
+  margin-right: 450px;
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  
+  
+}
+.header-text{
+  font-family: 'Abril Fatface', cursive;
+  color: #1f2021;
+  padding: 0;
+  position: absolute;
+  bottom: 18px;
+  left: 220px;  
+}
+.hi{
+  font-size: 20px;
+}
+.anakin{
+  font-size: 50px;
+}
+.blockquoteBox{
+  height: 160px;
+  background: grey;
+  margin-left: 590px;
+  margin-right: 520px;
+  position: relative;
+}
+
+blockquote{
+  font-family: 'Abril Fatface', cursive; 
+  color: white;
+  font-size: 45px;
+  padding-top: 10px;  
+  }
+
+blockquote::before{
+  content: '”';
+  content: '\201c';
+  font-size: 80px;
+  position: absolute;
+  line-height: 0.8;  
+  left:0 ;
+  
+}
+main h2{
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 600px;
+  margin-right: 530px;
+  margin-top: 50px;
+  
+}
+main h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;  
+  margin-left: 600px;
+  margin-right: 530px;
+  margin-bottom: 0px;
+}
+p.intro{
+ font-family: 'Merriweather', serif;
+ font-size: 15px;
+  margin-left: 600px;
+  margin-right: 530px;
+  margin-top: 50px;
+}
+p{
+ font-family: 'Merriweather', serif;
+ font-size: 15px;
+  margin-left: 600px;
+  margin-right: 530px;
+  top-margin: 0px;
+  
+}
+ul{
+    font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin-left: 600px;
+  margin-right: 530px;
+  margin-top: 15px;
+  list-style-type: square;
+  }
+.line{
+  height: 3px;
+  margin-left: 590px;
+  margin-right: 520px;
+  
+  
+  background: black;
+  margin-top: 50px;
+}
